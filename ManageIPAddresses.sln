@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{C8717B5C-C18D-4EB5-932E-897AB48E3FDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E911F9FD-BD1A-4DE4-BDF2-A62ADBD42030}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{AA2E2C7C-0E46-4D97-A75F-839FC0F04290}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buisness", "Buisness", "{776D3A05-375A-4063-8079-21EFCE17CA8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{89AA13EC-7416-46A8-BCBB-6960E47CA5AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageIPAddresses.Host", "ManageIPAddresses.Host\ManageIPAddresses.Host.csproj", "{3861635B-9E5D-4634-87F9-7F821B7D8A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageIPAddresses.WebApi", "ManageIPAddresses.WebApi\ManageIPAddresses.WebApi.csproj", "{82362DE6-F031-4835-98FA-6ED3E6165CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageIPAddresses.Service.Contracts", "ManageIPAddresses.Service.Contracts\ManageIPAddresses.Service.Contracts.csproj", "{6ACC5B96-B974-4DF5-AE1B-82C857CF7ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageIPAddresses.Service.Implementation", "ManageIPAddresses.Service.Implementation\ManageIPAddresses.Service.Implementation.csproj", "{A13A40DE-E7D6-498B-8D45-1CFF8867CB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageIPAddresses.InternalSystem.Contracts", "ManageIPAddresses.InternalSystem.Contracts\ManageIPAddresses.InternalSystem.Contracts.csproj", "{3EA07C87-CD10-4486-A399-ED0C18AD5E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageIPAddresses.InternalSystem.Implementation", "ManageIPAddresses.InternalSystem.Implementation\ManageIPAddresses.InternalSystem.Implementation.csproj", "{E27C1BAC-46B7-4C21-A0A1-FE1FCA2E871E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9819AB25-F7B0-47CE-92D9-4A2D557B46EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageIPAddresses.Infrastructure.Core", "ManageIPAddresses.Infrastructure.Core\ManageIPAddresses.Infrastructure.Core.csproj", "{C79170B3-51DC-43CE-988B-F68C56559C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageIPAddresses.Infrastructure.Core.Logging", "ManageIPAddresses.Infrastructure.Core.Logging\ManageIPAddresses.Infrastructure.Core.Logging.csproj", "{97F3DAD7-F150-4EC0-BB83-B0C8C8D78676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageIPAddresses.Infrastructure.Core.Messages", "ManageIPAddresses.Infrastructure.Core.Messages\ManageIPAddresses.Infrastructure.Core.Messages.csproj", "{FD1E4AB2-A9F8-4805-AC41-F3DBD7D424BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3861635B-9E5D-4634-87F9-7F821B7D8A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3861635B-9E5D-4634-87F9-7F821B7D8A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3861635B-9E5D-4634-87F9-7F821B7D8A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3861635B-9E5D-4634-87F9-7F821B7D8A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82362DE6-F031-4835-98FA-6ED3E6165CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82362DE6-F031-4835-98FA-6ED3E6165CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82362DE6-F031-4835-98FA-6ED3E6165CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82362DE6-F031-4835-98FA-6ED3E6165CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACC5B96-B974-4DF5-AE1B-82C857CF7ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACC5B96-B974-4DF5-AE1B-82C857CF7ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACC5B96-B974-4DF5-AE1B-82C857CF7ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACC5B96-B974-4DF5-AE1B-82C857CF7ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13A40DE-E7D6-498B-8D45-1CFF8867CB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13A40DE-E7D6-498B-8D45-1CFF8867CB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13A40DE-E7D6-498B-8D45-1CFF8867CB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13A40DE-E7D6-498B-8D45-1CFF8867CB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA07C87-CD10-4486-A399-ED0C18AD5E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA07C87-CD10-4486-A399-ED0C18AD5E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA07C87-CD10-4486-A399-ED0C18AD5E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA07C87-CD10-4486-A399-ED0C18AD5E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27C1BAC-46B7-4C21-A0A1-FE1FCA2E871E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27C1BAC-46B7-4C21-A0A1-FE1FCA2E871E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27C1BAC-46B7-4C21-A0A1-FE1FCA2E871E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27C1BAC-46B7-4C21-A0A1-FE1FCA2E871E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C79170B3-51DC-43CE-988B-F68C56559C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79170B3-51DC-43CE-988B-F68C56559C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79170B3-51DC-43CE-988B-F68C56559C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79170B3-51DC-43CE-988B-F68C56559C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F3DAD7-F150-4EC0-BB83-B0C8C8D78676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F3DAD7-F150-4EC0-BB83-B0C8C8D78676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F3DAD7-F150-4EC0-BB83-B0C8C8D78676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F3DAD7-F150-4EC0-BB83-B0C8C8D78676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1E4AB2-A9F8-4805-AC41-F3DBD7D424BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1E4AB2-A9F8-4805-AC41-F3DBD7D424BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1E4AB2-A9F8-4805-AC41-F3DBD7D424BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1E4AB2-A9F8-4805-AC41-F3DBD7D424BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA2E2C7C-0E46-4D97-A75F-839FC0F04290} = {E911F9FD-BD1A-4DE4-BDF2-A62ADBD42030}
+		{776D3A05-375A-4063-8079-21EFCE17CA8C} = {E911F9FD-BD1A-4DE4-BDF2-A62ADBD42030}
+		{89AA13EC-7416-46A8-BCBB-6960E47CA5AD} = {E911F9FD-BD1A-4DE4-BDF2-A62ADBD42030}
+		{3861635B-9E5D-4634-87F9-7F821B7D8A29} = {C8717B5C-C18D-4EB5-932E-897AB48E3FDA}
+		{82362DE6-F031-4835-98FA-6ED3E6165CB6} = {89AA13EC-7416-46A8-BCBB-6960E47CA5AD}
+		{6ACC5B96-B974-4DF5-AE1B-82C857CF7ECA} = {776D3A05-375A-4063-8079-21EFCE17CA8C}
+		{A13A40DE-E7D6-498B-8D45-1CFF8867CB90} = {776D3A05-375A-4063-8079-21EFCE17CA8C}
+		{3EA07C87-CD10-4486-A399-ED0C18AD5E17} = {AA2E2C7C-0E46-4D97-A75F-839FC0F04290}
+		{E27C1BAC-46B7-4C21-A0A1-FE1FCA2E871E} = {AA2E2C7C-0E46-4D97-A75F-839FC0F04290}
+		{C79170B3-51DC-43CE-988B-F68C56559C43} = {9819AB25-F7B0-47CE-92D9-4A2D557B46EC}
+		{97F3DAD7-F150-4EC0-BB83-B0C8C8D78676} = {9819AB25-F7B0-47CE-92D9-4A2D557B46EC}
+		{FD1E4AB2-A9F8-4805-AC41-F3DBD7D424BB} = {9819AB25-F7B0-47CE-92D9-4A2D557B46EC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE0C7A08-D2E0-4485-BB0F-F285005B92A3}
+	EndGlobalSection
+EndGlobal
